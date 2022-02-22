@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Shizuru&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    height: 54px;
+    font-size: 29px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Shizuru', cursive;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+.gamecontainer{
+
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,9vw);
+    grid-template-rows: repeat(3,9vw);
+
+}
+
+.box{
+    border: 2px  black solid;
+    font-size: 6vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box:hover{
+    background-color: rgb(229, 229, 250);
+}
+
+.gamerules{
+    padding: 0px 33px;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(133, 51, 112);
+    font-size: 30px;
+    
+    
+}
+.gamerules h1{
+    font-family: 'Shizuru', cursive;
+}
+
+.rules{
+    font-size: 39px;
+}
+
+.imgbox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+    margin: 0px 66px;
+    padding:14 65px;
+}
+
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+
+#reset{
+
+    margin: 0 18px;
+    padding:0 8px;
+    margin-top: 33px;
+    width: 9vw;
+    height: 6vh;
+    background-color: rgb(199, 159, 236);
+    border-radius: 19px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 28px;
+    cursor: pointer;
+
+}
